@@ -1,0 +1,228 @@
+---
+title: "Successful Email Counts"
+author: "Laura Le"
+date: "3/02/2020"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: row
+    vertical_layout: scroll
+    source_code: embed
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(data.table)
+library(dplyr)
+library(plyr)
+library(ggplot2)
+library(tidyr)
+library(mosaic)
+library(reshape2)
+library(plotly)
+library(flexdashboard)
+library(tidyverse)
+library(shiny)
+library(htmltools)
+library(shinydashboard)
+```
+
+
+```{r email data, include=FALSE}
+emaildata <- read.csv("EmailData.csv")
+head(emaildata)
+
+emaildata <- emaildata %>% mutate(
+  ID = as.character(ID)) 
+
+summary(emaildata$EmailTotal)
+summary(emaildata$NewEmailTotal)
+
+Mean2019 <- 205.5
+Mean2020 <-  211.0
+
+LongYear <- melt(data=emaildata, id.vars = c("ID", "Title", "Tenure", "Industry"),
+                 measure.vars = c("EmailTotal", "NewEmailTotal"),
+                 variable.name = "Year",
+                 value.name = "Emails")  
+
+LongYear$Year <- as.character(LongYear$Year)
+LongYear$Title <- as.character(LongYear$Title)
+
+LongYear$Year[LongYear$Year == "EmailTotal"] <- "2019"
+LongYear$Year[LongYear$Year == "NewEmailTotal"] <- "2020"
+LongYear$Title[LongYear$Title == "AVP"] <- "Associate VP"
+LongYear$Title[LongYear$Title == "VP"] <- "Vice President"
+
+
+
+```
+
+```{r acticities data, include = FALSE}
+
+mydata <- read.csv("AnonymousActivities.csv")
+head(mydata)
+
+mydata <- mydata %>% mutate(
+  ID = as.character(ID)) 
+
+mydata <- mydata[!(mydata$Title=="Intern"),]
+mydata <- mydata[!(mydata$Title=="Analyst"),]
+```
+
+
+
+Email and Promotion Level
+============================
+
+Row {data-height=65}
+---------------------------
+
+
+```{r}
+
+```
+
+
+
+**First American is beginning to invest in a more robust use of email marketing tools. Some colleagues are having great success with email communication, while others are not.  As a business, we have not yet explored the Successful Email Data. This project will begin to scratch the surface.**
+
+Row
+---------------------------
+
+
+```{r first, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+ggplot(LongYear, aes(reorder(ID, Emails), Emails))+
+  geom_point(aes(color=Year), size = 3)+
+  theme_bw()+
+    theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.title = element_blank(),
+        panel.grid.major = element_blank())+
+  ylab("Successful Emails")+
+  labs(title = "Successful Email Count by Sales Colleague",
+       subtitle = "Comparing this year vs. last year for January and February (8 weeks)",
+       caption = "Source: Weekly Salesforce Activity Reports")+
+  coord_flip()
+
+  
+```
+
+
+
+```{r second, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+ggplot(LongYear, aes(reorder(ID, Emails), Emails))+
+  geom_point(aes(color=Title), size = 3)+
+  facet_grid(cols = vars(Year))+
+  geom_hline(data = data.frame(yint=205.5, Year = "2019"), aes(yintercept = yint, linetype = "Avg # Successful Emails"))+
+  geom_hline(data = data.frame(yint=211.0, Year = "2020"), aes(yintercept = yint), linetype = "solid")+
+  theme_bw()+
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.title = element_blank(),
+        panel.border = element_blank(),
+        panel.grid.major = element_blank() )+ 
+  ylab(" ")+
+  labs(title = "Successful Email Count by Promotion Level",
+       subtitle = "Comparing this year vs. last year for January and February (8 weeks)",
+       caption = "Source: Weekly Salesforce Activity Reports")+
+  coord_flip()
+
+```
+
+Row
+-----------------------------
+
+### Associate VP's see improvement in Email Success Rate.
+```{r}
+
+  
+```
+
+Email success counts are similar for 2019 and 2020, with most sales colleagues achieving 50 – 350 successful emails.  Based on anecdotal information from our sales colleagues I expected to see a greater uptick of Successful Emails in 2020.  Determined to find a change between the two years, I layered my visualizations with several different variables: salesperson promotion level, number of years as a sales person, manager and industry.  
+
+Through this exercise I saw a year to year change in Salesperson’s Promotion Level.  When compared to the yearly average, 2020 data shows more Associate VP’s achieving higher than average Successful Emails.  Meanwhile, 2020 shows more Vice President Sales Colleagues with less than average email success.  Also, in 2020, the lowest Successful Email count was about 100 (compared to < 50 in 2019).    
+
+
+Interactive - Emails and Meetings
+=============================
+
+Row {data-height=80}
+---------------------------
+
+
+```{r}
+
+```
+
+
+
+**Successful Emails are important, but a truer measure of success would be the number of Successful Meetings.  The interactive dashboard allows Sales and Marketing colleagues to see how their performance compares to others.  I recommend this tool be used to evaluate success and determine if there are opportunities to learn from other sales colleagues or verticals.**
+
+Inputs {.sidebar}
+-----------------------------
+```{r third, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+inputPanel(
+  selectInput("Vertical", 
+              label = "Choose Vertical", 
+              choices = unique(mydata$Vertical), 
+              multiple = FALSE,
+              selected = "Healthcare")
+)
+```
+
+Row
+------------------------------
+```{r echo=FALSE}
+
+plot.dat <- reactive({
+  
+  mydata %>% 
+    filter(Vertical == input$Vertical)
+  
+})
+
+renderPlotly({
+  
+   plot.dat() %>%
+   plot_ly(data=., x = ~EmailTotal, y = ~MeetingTotal,
+        text = ~paste0("ID#  ", ID), name = 'Sales Colleague')%>%
+  add_trace(p=., type = "scatter")%>%
+  add_segments(x = 193, xend = 193, yend = 0, name = 'Successful Email Average') %>%
+  add_segments(x = 0, xend = 600, y = 17, yend = 17, name = 'Meeting Average') %>%
+  layout(xaxis = list(title = "Number of Successful Emails"),
+         yaxis = list(title = "Number of Meetings"),
+         title = "Successful Emails and Meetings by Vertical")
+
+  })
+
+```
+
+Static - Emails and Meetings
+=============================
+
+```{r echo=FALSE}
+
+ggplot(data=mydata, aes(x = EmailTotal, y= MeetingTotal))+
+  geom_point(aes(shape = Title, color=Vertical), size = 3)+
+  theme_bw()+
+    theme(legend.title = element_blank(),
+        panel.grid.major = element_blank())+
+  ylab("Successful Meetingss")+
+  xlab("Successful Emails")+
+  geom_hline(data = data.frame(yint=17), aes(yintercept = yint, linetype = "Average Success Count"))+
+  geom_vline(data = data.frame(xint=193), aes(xintercept = xint), linetype = "solid")+
+  labs(title = "Successful Emails and Meetings by Vertical",
+       subtitle = "January and February 2019 (8 weeks)",
+       caption = "Source: Weekly Salesforce Activity Reports")
+
+#ggplotly(static)
+
+```
+

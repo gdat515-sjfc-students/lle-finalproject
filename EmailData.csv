@@ -1,0 +1,56 @@
+ID,Tenure,Title,Industry,Week1Emails,Week2Emails,Week3Emails,Week4Emails,Week5Emails,Week6Emails,Week7Emails,Week8Emails,NewWeek1Emails,NewWeek2Emails,NewWeek3Emails,NewWeek4Emails,NewWeek5Emails,NewWeek6Emails,NewWeek7Emails,NewWeek8Emails,EmailTotal,EmailAvg,NewEmailTotal,NewEmailAvg
+1,Tenured,AVP,Technology Manufacturing and Distribution,11,0,5,15,30,17,23,27,18,13,8,0,25,13,25,25,128,16,127,15.875
+2,Tenured,AVP,Professional Businesses,14,12,16,23,32,26,28,22,25,27,23,2,51,21,28,28,173,21.625,205,25.625
+3,Veteran,VP,Technology Manufacturing and Distribution,17,31,31,32,4,19,32,14,52,40,26,10,34,42,27,27,180,22.5,258,32.25
+4,Veteran,AVP,Technology Manufacturing and Distribution,8,5,8,12,15,9,11,8,25,16,18,14,14,35,13,13,76,9.5,148,18.5
+5,Tenured,AVP,Technology Manufacturing and Distribution,5,8,0,4,3,17,12,11,9,9,16,5,17,16,10,10,60,7.5,92,11.5
+6,Tenured,AVP,Professional Businesses,25,19,10,15,13,8,22,40,26,25,11,27,26,10,25,25,152,19,175,21.875
+7,Tenured,AVP,Technology Manufacturing and Distribution,1,4,3,4,4,1,1,5,18,19,22,20,12,25,6,6,23,2.875,128,16
+8,Leader,AVP,Education,14,12,32,35,26,31,19,26,41,34,18,28,28,29,25,25,195,24.375,228,28.5
+9,Veteran,AVP,Technology Manufacturing and Distribution,15,12,20,29,18,40,18,14,42,18,28,28,20,38,22,22,166,20.75,218,27.25
+10,Tenured,VP,Healthcare,30,24,34,35,36,28,28,21,30,68,26,15,24,26,20,20,236,29.5,229,28.625
+11,Veteran,AVP,Technology Manufacturing and Distribution,29,9,13,5,16,30,35,23,10,21,28,9,22,29,23,23,160,20,165,20.625
+12,Leader,VP,Professional Businesses,14,25,22,24,32,66,33,16,38,40,29,12,28,18,7,7,232,29,179,22.375
+13,Tenured,AVP,Technology Manufacturing and Distribution,19,30,3,33,34,9,13,8,16,10,18,5,19,17,20,20,149,18.625,125,15.625
+14,Tenured,AVP,Technology Manufacturing and Distribution,3,7,5,0,3,5,24,1,8,10,5,4,8,5,22,22,48,6,84,10.5
+15,Veteran,AVP,Technology Manufacturing and Distribution,16,13,10,20,17,14,19,30,28,23,30,28,26,18,48,48,139,17.375,249,31.125
+16,Veteran,VP,Healthcare,15,22,28,33,42,32,41,48,52,42,18,14,31,47,29,29,261,32.625,262,32.75
+17,Veteran,AVP,Technology Manufacturing and Distribution,20,17,18,30,33,37,8,10,26,36,22,5,33,19,42,42,173,21.625,225,28.125
+18,Tenured,AVP,Healthcare,26,26,10,15,32,23,18,15,46,55,20,12,44,27,28,28,165,20.625,260,32.5
+19,Veteran,AVP,Healthcare,38,54,42,39,30,30,17,47,46,66,30,4,37,38,46,46,297,37.125,313,39.125
+20,Leader,VP,Technology Manufacturing and Distribution,9,27,30,15,36,27,28,28,25,10,40,4,15,14,20,20,200,25,148,18.5
+21,Leader,VP,Technology Manufacturing and Distribution,45,31,20,49,38,27,31,24,38,9,19,8,16,13,33,33,265,33.125,169,21.125
+22,Leader,VP,Technology Manufacturing and Distribution,19,49,13,36,35,13,8,28,18,15,22,8,19,42,32,32,201,25.125,188,23.5
+23,Tenured,AVP,Professional Businesses,3,14,12,35,6,15,46,12,16,6,18,29,36,20,14,14,143,17.875,153,19.125
+24,Tenured,AVP,Technology Manufacturing and Distribution,45,35,36,32,56,24,43,19,41,60,7,63,42,53,30,30,290,36.25,326,40.75
+25,Tenured,AVP,Education,28,16,25,38,13,29,27,14,15,66,34,15,70,12,26,26,190,23.75,264,33
+26,Leader,VP,Technology Manufacturing and Distribution,24,30,22,21,15,4,16,16,16,12,12,5,36,26,9,9,148,18.5,125,15.625
+27,Leader,VP,Professional Businesses,29,17,51,49,11,29,65,32,17,43,41,30,41,40,30,30,283,35.375,272,34
+28,Tenured,AVP,Healthcare,7,20,2,18,20,31,15,21,22,17,10,9,22,24,1,1,134,16.75,106,13.25
+29,Tenured,AVP,Healthcare,11,17,6,20,31,19,23,14,18,12,11,20,15,6,20,20,141,17.625,122,15.25
+30,Veteran,VP,Education,17,31,18,51,43,31,23,62,45,29,34,24,9,20,36,36,276,34.5,233,29.125
+31,Tenured,AVP,Professional Businesses,8,21,7,4,8,3,8,34,9,17,3,28,10,12,16,16,93,11.625,111,13.875
+32,Veteran,AVP,Education,71,66,53,45,70,75,72,87,95,47,63,20,42,54,54,54,539,67.375,429,53.625
+33,Tenured,AVP,Technology Manufacturing and Distribution,42,38,27,14,15,15,20,16,32,22,22,14,30,19,30,30,187,23.375,199,24.875
+34,Leader,VP,Healthcare,17,20,24,21,35,23,41,15,38,45,22,20,27,25,44,44,196,24.5,265,33.125
+35,Veteran,VP,Healthcare,40,42,19,11,28,16,52,33,22,46,31,11,11,26,61,61,241,30.125,269,33.625
+36,Veteran,AVP,Technology Manufacturing and Distribution,28,21,28,28,28,20,8,28,29,37,31,1,33,24,25,25,189,23.625,205,25.625
+37,Veteran,AVP,Education,5,21,22,10,5,13,31,36,32,42,41,27,14,25,23,23,143,17.875,227,28.375
+38,Veteran,AVP,Technology Manufacturing and Distribution,25,10,18,18,41,21,20,18,21,22,12,12,11,15,22,22,171,21.375,137,17.125
+39,Veteran,VP,Professional Businesses,52,32,50,45,51,53,46,46,49,34,28,16,65,25,78,78,375,46.875,373,46.625
+40,Veteran,VP,Education,57,26,56,17,15,35,21,37,50,42,36,24,46,35,47,47,264,33,327,40.875
+41,Tenured,AVP,Professional Businesses,11,14,5,14,10,5,13,14,5,21,14,19,18,13,17,17,86,10.75,124,15.5
+42,Veteran,VP,Education,22,43,35,64,15,65,64,70,60,69,79,14,69,63,19,19,378,47.25,392,49
+43,Tenured,AVP,Healthcare,15,25,18,10,3,28,28,30,25,31,28,6,30,27,25,25,157,19.625,197,24.625
+44,Veteran,VP,Education,31,32,32,26,58,36,38,30,42,34,27,2,23,30,25,25,283,35.375,208,26
+45,Tenured,AVP,Professional Businesses,35,52,46,64,33,55,24,27,42,37,21,10,30,28,25,25,336,42,218,27.25
+46,Leader,VP,Healthcare,45,28,29,53,38,24,26,19,16,28,22,4,26,4,28,28,262,32.75,156,19.5
+47,Tenured,AVP,Professional Businesses,1,10,19,15,6,9,14,6,11,6,16,18,14,15,3,3,80,10,86,10.75
+48,Veteran,AVP,Education,24,14,13,25,14,25,33,23,13,57,11,22,18,22,44,44,171,21.375,231,28.875
+49,Veteran,AVP,Technology Manufacturing and Distribution,17,36,20,27,12,16,46,10,18,30,22,2,9,23,14,14,184,23,132,16.5
+50,Leader,VP,Professional Businesses,21,17,29,40,32,39,22,20,11,31,8,10,12,16,25,25,220,27.5,138,17.25
+51,Veteran,AVP,Education,26,16,20,9,14,14,13,17,22,95,30,9,10,10,17,17,129,16.125,210,26.25
+52,Leader,VP,Education,36,41,43,38,22,36,34,20,36,38,41,14,33,28,34,34,270,33.75,258,32.25
+53,Leader,VP,Technology Manufacturing and Distribution,21,29,12,32,39,40,44,23,17,22,27,3,21,36,26,26,240,30,178,22.25
+54,Tenured,AVP,Healthcare,49,68,31,78,41,32,10,12,27,20,27,9,29,33,41,41,321,40.125,227,28.375
+55,Tenured,AVP,Professional Businesses,54,77,67,54,70,37,74,73,99,73,55,11,87,76,75,75,506,63.25,551,68.875

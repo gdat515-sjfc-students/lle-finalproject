@@ -1,0 +1,69 @@
+ID,Title,Vertical,Industry,Manager,Week1Meeting,Week2Meeting,Week3Meeting,Week4Meeting,Week5Meeting,Week6Meeting,Week7Meeting,Week8Meeting,Week1Calls,Week2Calls,Week3Calls,Week4Calls,Week5Calls,Week6Calls,Week7Calls,Week8Calls,Week1Emails,Week2Emails,Week3Emails,Week4Emails,Week5Emails,Week6Emails,Week7Emails,Week8Emails,EmailTotal,EmailAvg,CallTotal,CallAvg,MeetingTotal,MeetAvg,ActTotal
+1,Associate VP,Food and Beverage,"Technology, Manufacturing and Distribution",John,0,0,0,1,1,2,3,4,18,0,10,13,27,26,33,24,11,0,5,15,30,17,23,27,128,16,151,18.875,11,1.375,290
+2,Intern,Specialty Services,Professional Businesses,Nancy,0,2,1,4,1,1,2,1,29,27,25,8,30,19,5,14,21,21,21,24,18,18,12,19,154,19.25,157,19.625,12,1.5,323
+3,Associate VP,Professional Services,Professional Businesses,Laura,1,2,0,0,3,6,12,0,12,13,7,15,7,13,8,8,14,12,16,23,32,26,28,22,173,21.625,83,10.375,24,3,280
+4,VP,Manufacturing,"Technology, Manufacturing and Distribution",Jen,1,0,1,3,0,1,2,1,9,17,16,7,8,13,20,19,17,31,31,32,4,19,32,14,180,22.5,109,13.625,9,1.125,298
+5,Intern,Healthcare,Healthcare,Lori,0,0,0,0,0,1,2,1,0,0,7,23,4,5,21,34,0,4,3,2,6,10,5,11,41,5.125,94,11.75,4,0.5,139
+6,Associate VP,Tech and Life,"Technology, Manufacturing and Distribution",Joe,1,0,0,2,1,2,3,4,6,10,6,7,7,4,7,2,8,5,8,12,15,9,11,8,76,9.5,49,6.125,13,1.625,138
+7,Associate VP,Food and Beverage,"Technology, Manufacturing and Distribution",John,0,1,0,0,0,0,1,1,11,17,0,10,29,14,21,16,5,8,0,4,3,17,12,11,60,7.5,118,14.75,3,0.375,181
+8,Associate VP,Specialty Services,Professional Businesses,Nancy,3,3,0,3,0,3,2,2,8,11,5,5,12,1,8,5,25,19,10,15,13,8,22,40,152,19,55,6.875,16,2,223
+9,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Jen,0,0,1,1,1,0,0,0,8,9,4,3,7,9,9,11,1,4,3,4,4,1,1,5,23,2.875,60,7.5,3,0.375,86
+10,VP,Education,Education,Chad,1,1,2,3,5,2,2,2,8,13,12,12,8,15,2,9,14,12,32,35,26,31,19,26,195,24.375,79,9.875,18,2.25,292
+11,Associate VP,Food and Beverage,"Technology, Manufacturing and Distribution",John,2,3,4,1,3,2,4,3,20,12,16,12,15,16,4,17,15,12,20,29,18,40,18,14,166,20.75,112,14,22,2.75,300
+12,Associate VP,Healthcare,Healthcare,Jonah,2,3,2,5,4,5,5,4,2,5,16,16,5,7,12,8,30,24,34,35,36,28,28,21,236,29.5,71,8.875,30,3.75,337
+13,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Jen,0,1,0,2,1,0,3,1,17,12,11,10,15,20,18,20,29,9,13,5,16,30,35,23,160,20,123,15.375,8,1,291
+14,Associate VP,Logistics and Distribution,"Technology, Manufacturing and Distribution",Daniel,0,0,0,0,0,0,1,0,18,12,7,0,0,5,19,12,2,4,5,0,0,1,3,2,17,2.125,73,9.125,1,0.125,91
+15,VP,Professional Services,Professional Businesses,Laura,0,4,1,2,1,0,0,4,0,5,14,6,18,9,7,0,14,25,22,24,32,66,33,16,232,29,59,7.375,12,1.5,303
+16,Associate VP,Logistics and Distribution,"Technology, Manufacturing and Distribution",Daniel,4,1,0,3,3,3,4,3,26,35,0,22,29,20,21,20,19,30,3,33,34,9,13,8,149,18.625,173,21.625,21,2.625,343
+17,Associate VP,Healthcare,Healthcare,Jonah,0,0,0,0,0,5,6,0,0,0,0,0,15,10,12,11,0,0,0,0,0,0,1,10,11,1.375,48,6,11,1.375,70
+18,Associate VP,Food and Beverage,"Technology, Manufacturing and Distribution",John,2,1,2,1,0,0,0,1,13,9,13,3,4,7,26,4,3,7,5,0,3,5,24,1,48,6,79,9.875,7,0.875,134
+19,Associate VP,Tech and Life,"Technology, Manufacturing and Distribution",Joe,3,0,0,2,0,2,1,3,7,5,15,5,9,15,4,3,16,13,10,20,17,14,19,30,139,17.375,63,7.875,11,1.375,213
+20,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Dave,1,1,1,0,0,0,0,0,8,9,7,7,4,0,9,4,24,10,8,3,7,5,12,5,74,9.25,48,6,3,0.375,125
+21,VP,Healthcare,Healthcare,Jonah,0,1,1,0,1,1,0,0,2,1,5,11,5,6,6,6,15,22,28,33,42,32,41,48,261,32.625,42,5.25,4,0.5,307
+22,Intern,Manufacturing,"Technology, Manufacturing and Distribution",Dave,1,1,0,2,1,1,0,0,18,16,25,11,20,32,25,30,3,2,7,3,1,3,2,1,22,2.75,177,22.125,6,0.75,205
+23,Associate VP,Tech and Life,"Technology, Manufacturing and Distribution",Joe,0,4,1,0,6,2,6,1,19,9,13,15,10,13,9,9,20,17,18,30,33,37,8,10,173,21.625,97,12.125,20,2.5,290
+24,Associate VP,Healthcare,Healthcare,Lori,1,3,3,0,2,2,3,2,2,2,5,5,6,10,18,20,26,26,10,15,32,23,18,15,165,20.625,68,8.5,16,2,249
+25,Associate VP,Healthcare,Healthcare,Jonah,0,1,8,4,7,0,2,3,5,6,4,9,4,9,3,5,38,54,42,39,30,30,17,47,297,37.125,45,5.625,25,3.125,367
+26,Associate VP,Food and Beverage,"Technology, Manufacturing and Distribution",John,4,2,3,0,1,2,0,3,4,8,5,8,16,9,13,7,9,27,30,15,36,27,28,28,200,25,70,8.75,15,1.875,285
+27,VP,Manufacturing,"Technology, Manufacturing and Distribution",Dave,1,0,0,0,2,2,0,0,10,10,5,15,12,11,11,7,45,31,20,49,38,27,31,24,265,33.125,81,10.125,5,0.625,351
+28,VP,Logistics and Distribution,"Technology, Manufacturing and Distribution",Daniel,2,4,0,0,1,0,2,1,16,10,24,13,13,15,18,20,19,49,13,36,35,13,8,28,201,25.125,129,16.125,10,1.25,340
+29,VP,Manufacturing,"Technology, Manufacturing and Distribution",Dave,4,0,4,2,1,5,0,0,21,17,17,20,19,0,28,10,19,12,24,44,31,14,30,32,206,25.75,132,16.5,16,2,354
+30,Associate VP,Specialty Services,Professional Businesses,Nancy,1,0,2,1,2,1,2,1,6,8,4,14,2,11,15,8,3,14,12,35,6,15,46,12,143,17.875,68,8.5,10,1.25,221
+31,Intern,Specialty Services,Professional Businesses,Nancy,0,0,0,0,0,0,0,0,0,1,2,3,0,1,0,0,0,1,0,1,0,3,1,0,6,0.75,7,0.875,0,0,13
+32,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Jen,2,4,6,1,4,7,4,0,20,18,16,14,18,4,17,16,45,35,36,32,56,24,43,19,290,36.25,123,15.375,28,3.5,441
+33,Associate VP,Education,Education,Chad,3,2,2,1,2,1,1,6,13,10,6,13,2,4,15,8,28,16,25,38,13,29,27,14,190,23.75,71,8.875,18,2.25,279
+34,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Dave,1,1,0,0,0,0,0,0,6,7,7,11,9,13,1,5,24,30,22,21,15,4,16,16,148,18.5,59,7.375,2,0.25,209
+35,VP,Professional Services,Professional Businesses,Laura,0,0,1,0,0,3,5,1,21,10,13,8,0,7,11,16,29,17,51,49,11,29,65,32,283,35.375,86,10.75,10,1.25,379
+36,Associate VP,Healthcare,Healthcare,Lori,4,2,0,4,0,7,5,0,0,9,0,19,22,10,11,13,7,20,2,18,20,31,15,21,134,16.75,84,10.5,22,2.75,240
+37,Associate VP,Specialty Services,Healthcare,Nancy,3,1,3,2,1,4,1,1,13,9,0,9,17,11,9,12,11,17,6,20,31,19,23,14,141,17.625,80,10,16,2,237
+38,VP,Education,Education,Chad,2,4,1,4,6,6,2,1,17,13,11,8,5,1,13,11,17,31,18,51,43,31,23,62,276,34.5,79,9.875,26,3.25,381
+39,Associate VP,Specialty Services,Professional Businesses,Nancy,0,3,1,0,1,0,0,3,12,8,5,7,4,0,4,5,8,21,7,4,8,3,8,34,93,11.625,45,5.625,8,1,146
+40,Associate VP,Education,Education,Chad,4,5,5,1,2,4,3,1,7,8,7,9,13,10,4,5,71,66,53,45,70,75,72,87,539,67.375,63,7.875,25,3.125,627
+41,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Dave,1,0,0,1,1,1,1,0,7,11,24,13,1,3,19,13,18,11,11,21,20,15,25,8,129,16.125,91,11.375,5,0.625,225
+42,Analyst,Professional Services,Professional Businesses,Laura,0,0,0,0,0,0,0,0,0,0,2,4,0,4,0,0,0,0,0,0,0,0,1,0,1,0.125,10,1.25,0,0,11
+43,Associate VP,Logistics and Distribution,"Technology, Manufacturing and Distribution",Daniel,3,1,4,2,2,0,3,2,20,20,22,23,24,13,18,13,42,38,27,14,15,15,20,16,187,23.375,153,19.125,17,2.125,357
+44,VP,Healthcare,Healthcare,Lori,0,0,0,0,1,3,2,2,7,5,7,6,16,8,2,7,17,20,24,21,35,23,41,15,196,24.5,58,7.25,8,1,262
+45,VP,Healthcare,Healthcare,Lori,1,7,2,4,5,1,1,4,5,10,3,1,6,17,14,5,40,42,19,11,28,16,52,33,241,30.125,61,7.625,25,3.125,327
+46,Associate VP,Tech and Life,"Technology, Manufacturing and Distribution",Joe,4,2,3,2,2,1,3,3,11,22,9,18,14,13,5,6,28,21,28,28,28,20,8,28,189,23.625,98,12.25,20,2.5,307
+47,Associate VP,Education,Education,Chad,5,7,4,3,2,2,3,9,25,26,14,20,12,18,18,12,5,21,22,10,5,13,31,36,143,17.875,145,18.125,35,4.375,323
+48,Associate VP,Tech and Life,"Technology, Manufacturing and Distribution",Joe,0,3,1,2,3,4,1,1,11,15,12,12,9,5,10,8,25,10,18,18,41,21,20,18,171,21.375,82,10.25,15,1.875,268
+49,VP,Professional Services,Professional Businesses,Laura,4,1,2,7,0,0,1,0,26,18,14,21,13,18,16,20,52,32,50,45,51,53,46,46,375,46.875,146,18.25,15,1.875,536
+50,VP,Education,Education,Chad,0,14,3,2,11,0,10,5,6,0,1,1,1,16,2,9,57,26,56,17,15,35,21,37,264,33,36,4.5,45,5.625,345
+51,Associate VP,Logistics and Distribution,"Technology, Manufacturing and Distribution",Daniel,2,0,0,0,0,1,2,1,6,10,10,10,11,6,18,14,11,14,5,14,10,5,13,14,86,10.75,85,10.625,6,0.75,177
+52,VP,Education,Education,Chad,4,7,2,4,5,2,2,4,0,7,6,8,0,13,21,16,22,43,35,64,15,65,64,70,378,47.25,71,8.875,30,3.75,479
+53,Associate VP,Healthcare,Healthcare,Lori,2,3,8,8,1,1,6,3,18,14,6,2,0,25,25,29,15,25,18,10,3,28,28,30,157,19.625,119,14.875,32,4,308
+54,VP,Education,Education,Chad,0,5,3,2,7,2,5,15,4,4,11,9,6,5,15,6,31,32,32,26,58,36,38,30,283,35.375,60,7.5,39,4.875,382
+55,VP,Manufacturing,"Technology, Manufacturing and Distribution",Dave,0,0,0,0,0,0,0,0,3,3,4,2,0,3,12,4,10,5,3,4,1,8,9,2,42,5.25,31,3.875,0,0,73
+56,Associate VP,Specialty Services,Professional Businesses,Nancy,0,2,2,1,3,1,5,9,11,6,8,7,6,6,3,1,35,52,46,64,33,55,24,27,336,42,48,6,23,2.875,407
+57,VP,Healthcare,Healthcare,Jonah,0,3,5,0,2,1,0,6,4,4,2,9,6,7,9,0,45,28,29,53,38,24,26,19,262,32.75,41,5.125,17,2.125,320
+58,Associate VP,Specialty Services,Professional Businesses,Nancy,1,0,3,2,0,0,1,1,0,3,5,2,2,2,4,1,1,10,19,15,6,9,14,6,80,10,19,2.375,8,1,107
+59,Analyst,Manufacturing,"Technology, Manufacturing and Distribution",Jen,0,0,0,0,0,0,1,0,3,9,7,10,13,4,2,11,0,1,1,7,3,3,0,2,17,2.125,59,7.375,1,0.125,77
+60,Associate VP,Education,Education,Chad,6,0,0,6,2,2,4,4,13,6,17,18,8,5,5,10,24,14,13,25,14,25,33,23,171,21.375,82,10.25,24,3,277
+61,Associate VP,Manufacturing,"Technology, Manufacturing and Distribution",Jen,1,3,5,0,1,1,1,9,13,10,14,6,9,11,10,1,17,36,20,27,12,16,46,10,184,23,74,9.25,21,2.625,279
+62,VP,Professional Services,Professional Businesses,Laura,0,1,1,2,0,1,0,1,10,16,14,5,8,9,6,10,21,17,29,40,32,39,22,20,220,27.5,78,9.75,6,0.75,304
+63,Associate VP,Education,Education,Chad,3,5,0,3,1,1,2,0,14,5,22,12,11,11,9,14,26,16,20,9,14,14,13,17,129,16.125,98,12.25,15,1.875,242
+64,VP,Education,Education,Chad,1,6,2,3,11,5,5,4,18,9,11,1,5,21,12,15,36,41,43,38,22,36,34,20,270,33.75,92,11.5,37,4.625,399
+65,VP,Manufacturing,"Technology, Manufacturing and Distribution",Jen,6,5,1,4,3,1,3,6,3,18,8,16,27,17,25,21,21,29,12,32,39,40,44,23,240,30,135,16.875,29,3.625,404
+66,Analyst,Professional Services,Professional Businesses,Laura,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2,0,0,0,0,1,0,0,0,1,0.125,6,0.75,0,0,7
+67,Associate VP,Healthcare,Healthcare,Jonah,5,4,8,1,6,1,3,0,21,20,5,28,18,14,0,0,49,68,31,78,41,32,10,12,321,40.125,106,13.25,28,3.5,455
+68,Associate VP,Specialty Services,Professional Businesses,Nancy,4,2,5,2,3,2,2,13,2,11,8,4,4,3,2,5,54,77,67,54,70,37,74,73,506,63.25,39,4.875,33,4.125,578
